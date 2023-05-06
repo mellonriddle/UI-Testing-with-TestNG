@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Demo">
+    <test name="EndtoEnd Test">
+        <groups>
+            <run>
+                <include name="endtoend"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.US_Part_01.US_14"></class>
+            <class name="tests.US_Part_01.US_23"></class>
+            <class name="tests.US_Part_01.US_32"/>
+
+        </classes>
+    </test>
+</suite>
+
+
